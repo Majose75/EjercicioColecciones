@@ -34,7 +34,8 @@ function mostrar() {
 
     (<HTMLElement>document.getElementById("p")).innerHTML = elementoContenido;
 
-    
+
+
   
 
     

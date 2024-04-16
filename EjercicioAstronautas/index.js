@@ -21,7 +21,7 @@ function mostrar() {
     map.forEach(MostrarNombres);
     function MostrarNombres(valor, elemento, map) {
         let elementoLista = document.createElement("li");
-        elementoLista.textContent = elemento + " " + valor + " veces)";
+        elementoLista.textContent = elemento + " " + valor + " veces";
         document.getElementById("lista").appendChild(elementoLista);
     }
     let porcentaje = (contadorDuplicados * 100) / (contadorDuplicados + misAstronautas.size);
