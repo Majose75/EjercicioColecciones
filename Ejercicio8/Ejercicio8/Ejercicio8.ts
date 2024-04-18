@@ -71,7 +71,7 @@ function MostrarDatosMap() {
 function MostrarEmpleados() {
     let listaEmpleadosHTML = "<ul>";
     coleccionPersonaMap.forEach((miEmpleado, textoId) => {
-        listaEmpleadosHTML += `<li>${textoId}: de nombre ${miEmpleado.nombre}, Edad: ${miEmpleado.edad}, Experiencia: ${miEmpleado.experiencia}</li>`;
+        listaEmpleadosHTML += `<li>${textoId}: cuyo nombre es ${miEmpleado.nombre}, con edad: ${miEmpleado.edad} y experiencia de: ${miEmpleado.experiencia}</li>`;
     });
     listaEmpleadosHTML += '</ul>';
     document.getElementById("listaEmpleados")!.innerHTML = listaEmpleadosHTML;
